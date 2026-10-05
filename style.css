@@ -42,5 +42,19 @@ div{
   margin: 5px;
   padding: 2px;
 }
+@media screen and (min-width: 772px) {
+    div {
+        width: 45%;
+    }
 
+    img {
+        max-height: 30vh;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
 
